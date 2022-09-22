@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1> LET'S <span class="pink">COUNT!</span> </h1>
+
+	<!-- for first number -->
+	<input id="number1" />
+
+	<!-- block with buttons -->
+	<div  class="btns" id="btns">
+	  <button id="plus" onclick="aaa='+'">+</button>
+	  <button id="minus" onclick="aaa='-'">-</button>
+	  <button id="times" onclick="aaa='*'">x</button>
+	  <button id="divide" onclick="aaa='/'">:</button>
+	</div>
+
+	<!-- for second number -->
+	<input id="number2" />
+	<br>
+    
+    <!-- script -->
+    <script src = "script.js"> </script>
+
+	<!-- button for calculations -->
+	<button id="Calculate" onclick = "Calculate()"> Calculate</button>
+
+    <p id="result"></p>
+	
+
+</body>
+</html>
