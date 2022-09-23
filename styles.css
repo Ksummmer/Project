@@ -1,3 +1,12 @@
+
+#square {
+    width: 200px;
+    height: 250px;
+	border-radius: 8px;
+    background: #dbd5db;
+	margin: auto;
+}
+
 h1 {
     color: rgb(19, 177, 224);
     text-align: center;
@@ -8,6 +17,13 @@ h1 {
     color:rgb(218, 89, 200)
 }
 
+input[id="number1"] { 
+	background: #c9e6e4; 
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
 #btns {
     text-align: center;
 }
@@ -16,6 +32,7 @@ h1 {
 	width: 40px;
 	height: 30px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	border: none;
 	border-radius: 8px;
 	background-color: rgb(0, 204, 255);
@@ -23,6 +40,12 @@ h1 {
 	cursor: pointer;
 }
 
+input[id="number2"] { 
+	background: #e9cfe2; 
+	text-align: center;
+	margin: auto;
+	display: block;
+}
 
 #Calculate {
 	width: 80px;
@@ -33,10 +56,13 @@ h1 {
 	color: black;
 	cursor: pointer;
     text-align: center;
+	margin: auto;
+	display: block;
 }
 
+
 p {
-    font: bold italic 15px Verdana;
+    font: bold italic 25px Verdana;
     color: rgb(6, 192, 238);
     text-align: center;
 }
