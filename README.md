@@ -1,2 +1,2 @@
 # Project
-My first calculator
+Calculator
